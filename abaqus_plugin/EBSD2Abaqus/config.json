@@ -1,0 +1,27 @@
+{
+  "input_file": "input/ebsd.ctf",
+  "primary_phase": {
+    "name": "Ti-Hex",
+    "symmetry": "6/mmm",
+    "lattice_parameters": [2.954, 2.954, 4.729]
+  },
+  "secondary_phase": {
+    "name": "Titanium cubic",
+    "symmetry": "m-3m",
+    "lattice_parameters": [3.192, 3.192, 3.192]
+  },
+  "grain_reconstruction": {
+    "misorientation_deg": 5.0,
+    "min_grain_pixels": 5
+  },
+  "model": {
+    "coordinate_scale": 0.001,
+    "element_type": "CPE4",
+    "model_name": "EBSD_Base_Model",
+    "inp_name": "ebsd_base_model.inp",
+    "cae_name": "ebsd_base_model.cae",
+    "depvar_count": 81,
+    "umat_prefix": [0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0],
+    "umat_suffix": [0.5, 1.0, 1.0, 5.0]
+  }
+}

@@ -1,0 +1,21 @@
+# Experimental EBSD data are intentionally not committed.
+input/*
+!input/.gitkeep
+
+# Generated MTEX and Abaqus files are reproducible outputs.
+output/*
+!output/.gitkeep
+
+__pycache__/
+*.py[cod]
+*.log
+*.lck
+*.jnl
+*.rec
+*.rpy*
+*.sim
+*.sta
+*.msg
+*.dat
+*.com
+*.prt
